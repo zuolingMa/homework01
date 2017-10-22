@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2017-10-22T05:18:29Z" name="Default suite" finished-at="2017-10-22T05:18:30Z" duration-ms="47">
+    <groups>
+    </groups>
+    <test started-at="2017-10-22T05:18:29Z" name="Default test" finished-at="2017-10-22T05:18:30Z" duration-ms="47">
+      <class name="com.mzl.homework01.ToolsNGTest">
+        <test-method signature="testIsMatch(java.lang.String, boolean)[pri:0, instance:com.mzl.homework01.ToolsNGTest@17a7f733]" started-at="2017-10-22T13:18:29Z" name="testIsMatch" data-provider="dataForMatch" finished-at="2017-10-22T13:18:30Z" duration-ms="9" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[12+[(12+23)*4)*5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsMatch -->
+        <test-method signature="testIsMatch(java.lang.String, boolean)[pri:0, instance:com.mzl.homework01.ToolsNGTest@17a7f733]" started-at="2017-10-22T13:18:30Z" name="testIsMatch" data-provider="dataForMatch" finished-at="2017-10-22T13:18:30Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[12+[(12+23)+15]*12]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsMatch -->
+        <test-method signature="testIsMatch(java.lang.String, boolean)[pri:0, instance:com.mzl.homework01.ToolsNGTest@17a7f733]" started-at="2017-10-22T13:18:30Z" name="testIsMatch" data-provider="dataForMatch" finished-at="2017-10-22T13:18:30Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[[(])]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsMatch -->
+        <test-method signature="testIsMatch(java.lang.String, boolean)[pri:0, instance:com.mzl.homework01.ToolsNGTest@17a7f733]" started-at="2017-10-22T13:18:30Z" name="testIsMatch" data-provider="dataForMatch" finished-at="2017-10-22T13:18:30Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[([])()[]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsMatch -->
+        <test-method signature="testToBinary()[pri:0, instance:com.mzl.homework01.ToolsNGTest@17a7f733]" started-at="2017-10-22T13:18:30Z" name="testToBinary" finished-at="2017-10-22T13:18:30Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testToBinary -->
+        <test-method signature="testToChar()[pri:0, instance:com.mzl.homework01.ToolsNGTest@17a7f733]" started-at="2017-10-22T13:18:30Z" name="testToChar" finished-at="2017-10-22T13:18:30Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testToChar -->
+        <test-method signature="testToHexadecimal()[pri:0, instance:com.mzl.homework01.ToolsNGTest@17a7f733]" started-at="2017-10-22T13:18:30Z" name="testToHexadecimal" finished-at="2017-10-22T13:18:30Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testToHexadecimal -->
+        <test-method signature="testToOctal()[pri:0, instance:com.mzl.homework01.ToolsNGTest@17a7f733]" started-at="2017-10-22T13:18:30Z" name="testToOctal" finished-at="2017-10-22T13:18:30Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testToOctal -->
+        <test-method signature="testToOther()[pri:0, instance:com.mzl.homework01.ToolsNGTest@17a7f733]" started-at="2017-10-22T13:18:30Z" name="testToOther" finished-at="2017-10-22T13:18:30Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testToOther -->
+      </class> <!-- com.mzl.homework01.ToolsNGTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
